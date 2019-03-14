@@ -185,10 +185,6 @@
                     "value": "LRU"
                 },
                 {
-                    "name": "hac",
-                    "contextPath": "/hac"
-                },
-                {
                     "key": "tomcat.maxthreads",
                     "value": "100"
                 }
