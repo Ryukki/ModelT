@@ -183,6 +183,14 @@
                {
                     "key": "regioncache.queryregion.evictionpolicy",
                     "value": "LRU"
+                },
+                {
+                    "name": "hac",
+                    "contextPath": "/hac"
+                },
+                {
+                    "name": "tomcat.maxthreads",
+                    "value": "100"
                 }
             ],
             "webapps": [
