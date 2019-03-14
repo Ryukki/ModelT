@@ -189,7 +189,7 @@
                     "contextPath": "/hac"
                 },
                 {
-                    "name": "tomcat.maxthreads",
+                    "key": "tomcat.maxthreads",
                     "value": "100"
                 }
             ],
