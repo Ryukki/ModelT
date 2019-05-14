@@ -1,5 +1,5 @@
 {
-   "commerceSuiteVersion": "1808.0",
+   "commerceSuiteVersion": "6.7.0.6",
    "troubleshootingModeEnabled": true,
    "extensions": [
    	   "mcc",
@@ -48,7 +48,10 @@
        "customsitetest",
        "customsiteinitialdata",
        "customsitestorefront",
-       "personalizationsearchsamplesaddon"
+       "personalizationsearchsamplesaddon",
+       "y2ysyncbackoffice",
+       "y2ysync",
+       "deltadetection",
    ],
    "storefrontAddons" : [
         {
