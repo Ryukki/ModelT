@@ -1,5 +1,5 @@
 {
-   "commerceSuiteVersion": "18.08.1",
+   "commerceSuiteVersion": "18.11.9",
    "extensions": [
        "yacceleratorstorefront",
        "backoffice",
@@ -10,7 +10,12 @@
        "solrfacetsearchbackoffice",
        "commerceservicesbackoffice",
        "cmscockpit",
-       "smartedit"
+       "smartedit",
+       "odata2webservices",
+       "integrationbackoffice",
+       "inboundservices",
+       "outboundservices" 
+       
    ],
    "storeFrontExtension": "yacceleratorstorefront",
    "storeFrontWebRoot": "/yacceleratorstorefront",
@@ -28,6 +33,28 @@
    "recipe": "pipeline_b2c_dockerized",
    "resultingImageVersion": "ps_cc2v1",    
    "aspects": [
+      {
+            "name": "api",
+            "properties": [],
+            "webapps": [
+                {
+                    "name": "hac",
+                    "contextPath": "/hac"
+                },
+                {
+                    "name": "odata2webservices",
+                    "contextPath": "/odata2webservices"
+                },
+                {
+                    "name": "mediaweb",
+                    "contextPath": "/media"
+                },
+                {
+                    "name": "oauth2",
+                    "contextPath": "/authorizationserver"
+                }
+            ]
+        },
          {
             "name": "backoffice",
             "properties": [],
