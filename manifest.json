@@ -32,10 +32,6 @@
             "value": "https://app.ltl.xpo.com/appjs/tracking/\\#/trackingdetails/"
         },
         {
-            "key": "test.escape13",
-            "value": "https://app.ltl.xpo.com/appjs/tracking/\\\#/trackingdetails/"
-        },
-        {
             "key": "test.escape14",
             "value": "https://app.ltl.xpo.com/appjs/tracking/\\\\#/trackingdetails/"
         }
