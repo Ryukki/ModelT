@@ -28,10 +28,6 @@
             "value": "test.property.2.value"
         },
         {
-            "key": "test.escape11",
-            "value": "https://app.ltl.xpo.com/appjs/tracking/\#/trackingdetails/"
-        },
-        {
             "key": "test.escape12",
             "value": "https://app.ltl.xpo.com/appjs/tracking/\\#/trackingdetails/"
         },
