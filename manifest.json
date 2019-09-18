@@ -13,7 +13,8 @@
        "odata2webservices",
        "integrationbackoffice",
        "inboundservices",
-       "outboundservices" 
+       "outboundservices",
+       "optcustomerfacade"
        
    ],
    "storeFrontExtension": "yacceleratorstorefront",
