@@ -20,6 +20,13 @@
 			xsi:noNamespaceSchemaLocation="items.xsd">
 
 	<itemtypes>
+		<itemtype code="CronJobHistory" autocreate="false" generate="false">
+			<indexes>
+				<index name="cronJobIdx">
+					<key attribute="cronjob"/>
+				</index>
+			</indexes>
+		</itemtype>
 <!--
 		<itemtype generate="true"
 		   code="MyProduct"
