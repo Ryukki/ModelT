@@ -1,18 +1,55 @@
 {
-   "commerceSuiteVersion": "6.7.0.1",
+   "commerceSuiteVersion": "1811",
+   "troubleshootingModeEnabled":true,
    "extensions": [
-       "optcustomerfacade",
-       "yacceleratorstorefront",
+   	   "mcc",
        "backoffice",
        "platformbackoffice",
-       "electronicsstore",
-       "basecommercebackoffice",       
-       "yacceleratorfulfilmentprocess",
+       "basecommercebackoffice",  
+       "adaptivesearchsolr",
+       "adaptivesearchbackoffice",
+       "adaptivesearchsamplesaddon",
+       "adaptivesearchwebservices",
+       "commerceservicesbackoffice",
        "solrfacetsearchbackoffice",
-       "commerceservicesbackoffice"
+       "ycommercewebservices",
+       "ycommercewebservicestest",
+       "electronicsstore",
+       "acceleratorwebservicesaddon",
+       "orderselfserviceaddon",
+       "customersupportbackoffice",
+       "customerticketingaddon",
+       "commerceorgsamplesaddon",
+       "rulebuilderbackoffice",
+       "couponbackoffice",
+       "droolsruleengineservices",
+       "couponfacades",
+       "promotionenginesamplesaddon",
+       "cmswebservices",
+       "smarteditwebservices",
+       "cmssmarteditwebservices",
+       "permissionswebservices",
+       "smarteditaddon",
+       "cmssmartedit",
+       "cmsbackoffice",
+       "multicountrysampledataaddon",       
+       "textfieldconfiguratortemplatebackoffice",
+       "textfieldconfiguratortemplateaddon",
+       "assistedservicestorefront",
+       "assistedservicewebservices",
+       "assistedservicepromotionaddon",
+       "pcmbackofficesamplesaddon",
+       "personalizationsearchsamplesaddon",
+       "acceleratorservices",
+       "commerceservices",
+       "springintegrationlibs",
+       "commerceservices",
+       "azurecloud",
+       "cloudcommons",
+       "cloudhotfolder",
+       "azurecloudhotfolder",
+       "yacceleratorstorefront"
    ],
-   "storeFrontExtension": "yacceleratorstorefront",
-   "storeFrontWebRoot": "/yacceleratorstorefront",
    "properties": [
         {
             "key": "test.property.1",
@@ -20,12 +57,28 @@
         },
         {
             "key": "test.property.2",
-            "value": "test.property.2.value"
-        }
+            "value": "global"
+        },
+        {
+            "key": "test.property.3",
+            "value": "persona.development",
+            "persona": "development"
+        },
+        {
+            "key": "test.property.4",
+            "value": "persona.staging",
+            "persona": "staging"
+        },
+        {
+            "key": "test.property.5",
+            "value": "persona.production",
+            "persona": "production"
+        },
+        {
+     	 "key":"hac.webroot",
+     	 "value":"/hac"
+    	}
     ],
-   "project": "ps_cc2v1",
-   "recipe": "pipeline_b2c_dockerized",
-   "resultingImageVersion": "ps_cc2v1",    
    "aspects": [
          {
             "name": "backoffice",
@@ -64,7 +117,7 @@
                 },
                 {
                     "name": "yacceleratorstorefront",
-                    "contextPath": "/backoffice"
+                    "contextPath": "/yacceleratorstorefront"
                 }
             ]
         },
@@ -73,7 +126,7 @@
             "properties": [
                 {
                     "key": "cluster.node.groups",
-                    "value": "backgroundProcessing"
+                    "value": "backgroundProcessing,integration,yHotfolderCandidate"
                 },
                 {
                     "key": "task.workers.max",
@@ -94,11 +147,7 @@
                 {
                     "key": "processengine.process.canjoinpreviousnode.default",
                     "value": "true"
-                },
-                {
-                    "key": "yacceleratorfulfilmentprocess.fraud.scoreLimit",
-                    "value": "10000"
-                }                  
+                }             
             ],
             "webapps": [
                 {
@@ -110,11 +159,10 @@
                     "contextPath": "/medias"
                 },
                 {
-                    "name": "yacceleratorstorefront",
+                    "name": "backoffice",
                     "contextPath": "/backoffice"
                 }
             ]
         }
     ]
 }
-
