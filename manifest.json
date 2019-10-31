@@ -45,6 +45,9 @@
        "springintegrationlibs",
        "commerceservices",
        "azurecloud",
+       "cloudcommons",
+       "cloudhotfolder",
+       "azurecloudhotfolder",
        "yacceleratorstorefront"
    ],
    "properties": [
