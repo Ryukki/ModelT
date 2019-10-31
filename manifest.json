@@ -2,7 +2,6 @@
    "commerceSuiteVersion": "1905",
    "troubleshootingModeEnabled":true,
    "extensions": [
-   	   "mcc",
        "backoffice",
        "platformbackoffice",
        "basecommercebackoffice",  
