@@ -1,5 +1,6 @@
 {
    "commerceSuiteVersion": "1905",
+   "useCloudExtensionPack": true,
    "troubleshootingModeEnabled":true,
    "extensions": [
        "backoffice",
@@ -44,8 +45,6 @@
        "springintegrationlibs",
        "commerceservices",
        "azurecloud",
-       "cloudhotfolder",
-       "azurecloudhotfolder",
        "yacceleratorstorefront"
    ],
    "properties": [
