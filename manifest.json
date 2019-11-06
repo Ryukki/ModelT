@@ -1,8 +1,8 @@
 {
    "commerceSuiteVersion": "1811",
+   "useCloudExtensionPack": true,
    "troubleshootingModeEnabled":true,
    "extensions": [
-   	   "mcc",
        "backoffice",
        "platformbackoffice",
        "basecommercebackoffice",  
