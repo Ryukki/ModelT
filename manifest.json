@@ -149,20 +149,7 @@
                     "value": "true"
                 }             
             ],
-            "webapps": [
-                {
-                    "name": "hac",
-                    "contextPath": "/hac"
-                },
-                {
-                    "name": "mediaweb",
-                    "contextPath": "/medias"
-                },
-                {
-                    "name": "backoffice",
-                    "contextPath": "/backoffice"
-                }
-            ]
+            "webapps": []
         }
     ]
 }
