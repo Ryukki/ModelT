@@ -148,8 +148,7 @@
                     "key": "processengine.process.canjoinpreviousnode.default",
                     "value": "true"
                 }             
-            ],
-            "webapps": []
+            ]
         }
     ]
 }
