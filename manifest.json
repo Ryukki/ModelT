@@ -1,6 +1,7 @@
 {
    "commerceSuiteVersion": "1905.9",
    "troubleshootingModeEnabled": true,
+   "enableImageProcessingService": true,
    "extensions": [
 "adaptivesearchsolr",
 "adaptivesearchbackoffice",
