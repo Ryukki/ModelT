@@ -96,7 +96,9 @@
 "merchandisingsmartedit",
 "merchandisingservices",
 "merchandisingservicesbackoffice",
-"merchandisingstorefrontsampledataaddon"
+"merchandisingstorefrontsampledataaddon",
+"cloudmediaconversion",
+"mediaconversionbackoffice"
    
    ],
    "storefrontAddons" : [],
