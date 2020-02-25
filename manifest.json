@@ -1,5 +1,5 @@
 {
-   "commerceSuiteVersion": "6.7.0.23",
+   "commerceSuiteVersion": "1811.18",
    "troubleshootingModeEnabled": true,
    "extensions": [
        "adaptivesearchsolr",
