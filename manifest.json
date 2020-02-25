@@ -56,18 +56,7 @@
 "textfieldconfiguratortemplateaddon",
 "assistedservicestorefront",
 "assistedservicewebservices",
-"assistedservicepromotionaddon",
-"pcmbackofficesamplesaddon",
-"outboundservices",
-"odata2webservices",
-"odata2webservicesfeaturetests",
-"kymaintegrationbackoffice",
-"kymaintegrationsampledata",
-"odata2webservices",
-"integrationbackoffice",
-"inboundservices",
-"outboundservices",
-"samesite"
+"assistedservicepromotionaddon"
    
    ],
    "storefrontAddons" : [
