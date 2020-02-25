@@ -1,0 +1,10 @@
+<Context>
+  <WatchedResource>WEB-INF/web.xml</WatchedResource>
+  <WatchedResource>${catalina.base}/conf/web.xml</WatchedResource>
+  <Listener className='de.hybris.ccv2.listeners.CCv2LifecycleListener'/>
+  
+  <!-- injecting our own cookie processor -->
+  <CookieProcessor className="com.sap.cec.ccv2hacks.samesite.tomcat.SameSiteCookieProcessor" />
+  <!--  -->
+
+</Context>
