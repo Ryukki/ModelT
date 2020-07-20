@@ -48,7 +48,8 @@
        "cloudcommons",
        "cloudhotfolder",
        "azurecloudhotfolder",
-       "yacceleratorstorefront"
+       "yacceleratorstorefront",
+       "optcustomerfacade"
    ],
    "properties": [
         {
