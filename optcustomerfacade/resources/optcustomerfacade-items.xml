@@ -46,44 +46,8 @@
 			</attributes>
 		</itemtype>
 -->
-		<itemtype code="Customer" extends="User" jaloclass="de.hybris.platform.jalo.user.Customer" generate="true" singleton="false" jaloonly="false" autocreate="true">
+		<itemtype code="Customer" generate="false" autocreate="false">
 		<attributes>
-			<attribute generate="true" autocreate="true" qualifier="contactEmail" type="java.lang.String">
-				<persistence type="jalo" qualifier=""/>
-				<modifiers read="true" write="false" search="false" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
-			</attribute>
-			<attribute generate="true" autocreate="true" qualifier="customerID" type="java.lang.String">
-				<persistence type="property" qualifier=""/>
-				<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
-			</attribute>
-			<attribute generate="true" autocreate="true" qualifier="defaultPaymentInfo" type="PaymentInfo">
-				<persistence type="property" qualifier=""/>
-				<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
-			</attribute>
-			<attribute generate="true" autocreate="true" qualifier="originalUid" type="java.lang.String">
-				<persistence type="property" qualifier=""/>
-				<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
-			</attribute>
-			<attribute generate="true" autocreate="true" qualifier="previewCatalogVersions" type="CatalogVersionCollection">
-				<persistence type="property" qualifier=""/>
-				<modifiers read="true" write="true" search="false" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
-			</attribute>
-			<attribute generate="true" autocreate="true" qualifier="tickets" type="CsTicketList">
-				<persistence type="jalo" qualifier=""/>
-				<modifiers read="true" write="true" search="false" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
-			</attribute>
-			<attribute generate="true" autocreate="true" qualifier="title" type="Title">
-				<persistence type="property" qualifier=""/>
-				<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
-			</attribute>
-			<attribute generate="true" autocreate="true" qualifier="token" type="java.lang.String">
-				<persistence type="property" qualifier=""/>
-				<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
-			</attribute>
-			<attribute generate="true" autocreate="true" qualifier="type" type="CustomerType"><!-- could not export defaultvalue 'CustomerType.REGISTERED(REGISTERED(8796093055067))' -->
-				<persistence type="property" qualifier=""/>
-				<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
-			</attribute>
 			<attribute generate="true" autocreate="true" qualifier="defaultPaymentAddress" type="Address" redeclare="true">
 				<persistence type="property" qualifier=""/>
 				<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
