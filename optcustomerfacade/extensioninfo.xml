@@ -18,6 +18,7 @@
       <!-- you should add all required extensions to this list, except platform extensions which are automatically required -->         
       <!-- <requires-extension name="cms"/> -->         
       <requires-extension name="commercefacades"/>
+      <requires-extension name="basecommerce"/>
 
       <coremodule generated="true" manager="de.hybris.support.jalo.OptcustomerfacadeManager" packageroot="de.hybris.support"/>
       <webmodule jspcompile="false" webroot="/optcustomerfacade"/>
