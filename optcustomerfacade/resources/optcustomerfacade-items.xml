@@ -20,6 +20,14 @@
 			xsi:noNamespaceSchemaLocation="items.xsd">
 
 	<itemtypes>
+		<itemtype code="Warehouse" autocreate="false" generate="false">
+			<attributes>
+				<attribute qualifier="default" type="java.lang.Boolean" generate="true">
+					<persistence type="property" qualifier=""/>
+					<modifiers write="true"/>
+				</attribute>
+			</attributes>
+		</itemtype>
 <!--
 		<itemtype generate="true"
 		   code="MyProduct"
