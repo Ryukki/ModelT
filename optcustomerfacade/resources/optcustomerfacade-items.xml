@@ -18,7 +18,7 @@
 
 <items 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 			xsi:noNamespaceSchemaLocation="items.xsd">
-
+	<itemtypes>
 	
 		<itemtype code="Warehouse" autocreate="false" generate="false">
 			<attributes>
