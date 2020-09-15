@@ -44,7 +44,7 @@
        "commerceservices",
        "springintegrationlibs",
        "commerceservices",
-       "yacceleratorstorefront",
+       "yacceleratorstorefront"
    ],
    "properties": [
         {
@@ -73,7 +73,7 @@
         {
      	 "key":"hac.webroot",
      	 "value":"/hac"
-    	}
+    	 }
     ],
    "aspects": [
          {
