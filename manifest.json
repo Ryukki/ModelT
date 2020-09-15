@@ -1,6 +1,6 @@
 {
-   "commerceSuiteVersion": "1811",
-   "useCloudExtensionPack": true,
+   "commerceSuiteVersion": "1811.15",
+   "useCloudExtensionPack": false,
    "troubleshootingModeEnabled":true,
    "extensions": [
        "backoffice",
@@ -44,12 +44,7 @@
        "commerceservices",
        "springintegrationlibs",
        "commerceservices",
-       "azurecloud",
-       "cloudcommons",
-       "cloudhotfolder",
-       "azurecloudhotfolder",
        "yacceleratorstorefront",
-       "optcustomerfacade"
    ],
    "properties": [
         {
@@ -127,7 +122,7 @@
             "properties": [
                 {
                     "key": "cluster.node.groups",
-                    "value": "backgroundProcessing,integration,yHotfolderCandidate"
+                    "value": "backgroundProcessing"
                 },
                 {
                     "key": "task.workers.max",
