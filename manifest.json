@@ -1,5 +1,16 @@
 {
-   "commerceSuiteVersion": "1811.9",
+   "commerceSuiteVersion": "2005",
+    "useCloudExtensionPack": true,
+    "extensionPacks": [
+         {
+             "name": "scpi",
+              "version": "2005.0"
+         },
+         {
+             "name": "scpi-order-management-system",
+              "version": "2005.0"
+         }
+      ],
    "troubleshootingModeEnabled": true,
    "extensions": [
        "adaptivesearchsolr",
@@ -57,16 +68,7 @@
 "assistedservicestorefront",
 "assistedservicewebservices",
 "assistedservicepromotionaddon",
-"pcmbackofficesamplesaddon",
-"outboundservices",
-"odata2webservices",
-"odata2webservicesfeaturetests",
-"kymaintegrationbackoffice",
-"kymaintegrationsampledata",
-"odata2webservices",
-"integrationbackoffice",
-"inboundservices",
-"outboundservices"
+"pcmbackofficesamplesaddon"
    
    ],
    "storefrontAddons" : [
